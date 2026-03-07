@@ -17,7 +17,7 @@ Uses a WebSocket echo server to simulate real-time streaming
 
 Scrollable list of stock symbols.
 
- Each row displays:
+Each row displays:
 
 Stock symbol
 
