@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		130D09212F5B405D00FA0F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 130D08F42F5B334700FA0F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 130D08FB2F5B334700FA0F45;
+			remoteInfo = "Real-Time Price Tracker App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		130D08FC2F5B334700FA0F45 /* Real-Time Price Tracker App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real-Time Price Tracker App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		130D091D2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real-Time Price Tracker AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = "Real-Time Price Tracker App";
 			sourceTree = "<group>";
 		};
+		130D091E2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Real-Time Price Tracker AppTests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		130D08F92F5B334700FA0F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130D091A2F5B405D00FA0F45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				130D08FE2F5B334700FA0F45 /* Real-Time Price Tracker App */,
+				130D091E2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests */,
 				130D08FD2F5B334700FA0F45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				130D08FC2F5B334700FA0F45 /* Real-Time Price Tracker App.app */,
+				130D091D2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 130D08FC2F5B334700FA0F45 /* Real-Time Price Tracker App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		130D091C2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130D09232F5B405D00FA0F45 /* Build configuration list for PBXNativeTarget "Real-Time Price Tracker AppTests" */;
+			buildPhases = (
+				130D09192F5B405D00FA0F45 /* Sources */,
+				130D091A2F5B405D00FA0F45 /* Frameworks */,
+				130D091B2F5B405D00FA0F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130D09222F5B405D00FA0F45 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				130D091E2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests */,
+			);
+			name = "Real-Time Price Tracker AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Real-Time Price Tracker AppTests";
+			productReference = 130D091D2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					130D08FB2F5B334700FA0F45 = {
 						CreatedOnToolsVersion = 26.1.1;
+					};
+					130D091C2F5B405D00FA0F45 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = 130D08FB2F5B334700FA0F45;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				130D08FB2F5B334700FA0F45 /* Real-Time Price Tracker App */,
+				130D091C2F5B405D00FA0F45 /* Real-Time Price Tracker AppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		130D08FA2F5B334700FA0F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130D091B2F5B405D00FA0F45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		130D09192F5B405D00FA0F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130D09222F5B405D00FA0F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 130D08FB2F5B334700FA0F45 /* Real-Time Price Tracker App */;
+			targetProxy = 130D09212F5B405D00FA0F45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		130D09052F5B334800FA0F45 /* Debug */ = {
@@ -306,6 +381,46 @@
 			};
 			name = Release;
 		};
+		130D09242F5B405D00FA0F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apexa.project.Real-Time-Price-Tracker-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real-Time Price Tracker App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Real-Time Price Tracker App";
+			};
+			name = Debug;
+		};
+		130D09252F5B405D00FA0F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apexa.project.Real-Time-Price-Tracker-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real-Time Price Tracker App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Real-Time Price Tracker App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +438,15 @@
 			buildConfigurations = (
 				130D09082F5B334800FA0F45 /* Debug */,
 				130D09092F5B334800FA0F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130D09232F5B405D00FA0F45 /* Build configuration list for PBXNativeTarget "Real-Time Price Tracker AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130D09242F5B405D00FA0F45 /* Debug */,
+				130D09252F5B405D00FA0F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
